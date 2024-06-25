@@ -1,0 +1,124 @@
+@media screen and (min-width:375px){
+  body{
+ background-color:white;
+  }
+@font-face{
+  font-family:Outfit;
+  src:url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf)
+}
+@font-face{
+  font-family:Young Serif;
+  src:url(assets/fonts/young-serif/YoungSerif-Regular.ttf)
+}
+.omelette_header{
+  font-weight:400;
+  margin-top:5%;
+  margin-left:7%;
+  margin-bottom:5%;
+  margin-right:5%;
+  font-size:40px;
+  font-family:Young Serif;
+  line-height:45px;
+}
+*{
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+  }
+  .prep_time{
+    background-color:hsl(330, 100%, 98%);
+    margin:30px;
+    padding:15px;
+    border-radius:10px;
+    font-family:outfit;
+  }
+.prep_time_1{
+  color:hsl(332, 51%, 32%);
+  font-size:25px;
+}
+.prep_time_2{
+margin-left:20px;
+line-height:35px;
+margin-top:10px;
+font-size:17px;
+padding-right:100px;
+padding-left:7px;
+}
+  .paragraph{
+    font-size:18px;
+    margin-left:7%;
+    margin-top:5%;
+    margin-right:7%;
+    font-family:Outfit;
+  }
+.bold{
+  font-weight:bold;
+  font-size:17px;
+}
+.li_1::marker{
+color:hsl(332, 51%, 32%);
+}
+.li_2::marker{
+  color:hsl(14, 45%, 36%);
+}
+.ing{
+  margin:27px;
+  border-bottom:.7px solid black;
+}
+.ing_1{
+color:hsl(14, 45%, 36%);
+font-size:30px;
+font-family:Young Serif;
+font-weight:400;
+margin-left:7px;
+}
+.ing_2{
+  font-family:outfit;
+  margin-left:30px;
+  line-height:30px;
+  margin-top:3%;
+  font-size:16px;
+  margin-right:50px;
+  margin-bottom:30px;
+}
+.ing_3{
+  margin:20px;
+}
+.paragraph_1{
+    font-size:18px;
+    margin-left:2%;
+    margin-top:5%;
+    margin-right:7%;
+    font-family:outfit;
+  }
+  .table{
+    margin-left:30px;
+    line-height:40px;
+    font-family:outfit;
+    width:70%;
+  }
+  .td{
+    font-size:18px;
+  }
+  .td_1{
+    font-size:18px;
+    color:hsl(14, 45%, 36%);
+    font-weight:700;
+  }
+  table{
+    border-collapse:collapse;
+  }
+  tr{
+    border-bottom:1px solid black;
+    border-width:100%;
+  }
+}
+@media screen and (min-width:1440px){
+  body{
+    background-color:white;
+  }
+}
